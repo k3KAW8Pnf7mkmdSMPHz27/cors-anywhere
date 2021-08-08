@@ -28,6 +28,7 @@ cors_proxy.createServer({
   removeHeaders: [
     'cookie',
     'cookie2',
+    'origin',
     // Strip Heroku-specific headers
     'x-request-start',
     'x-request-id',
